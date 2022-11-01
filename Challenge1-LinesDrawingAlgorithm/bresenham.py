@@ -19,7 +19,7 @@ def bresenham(x1, y1, x2, y2):
 
     points = []
 
-    # we go from x1 to x2 including, step of 0.1
+    # we go from x1 to x2 including
     for x in range(x1, x2 + 1):
         # print(f"{x, y}", end=" ")
         points.append((x, y))
